@@ -179,7 +179,7 @@ export const managers = [
     {
       "managerID": "941901488966750208",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Ryan/Cook",
-//      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+  //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Everywhere", // (optional)
       "bio": "Usually on the business end of a trade with Chubb, Cook has built his team through trading and looks dangerous heading into a new season. A waiver wire move away from a playoff victory, there's a lot to like about Cook moving forward.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
