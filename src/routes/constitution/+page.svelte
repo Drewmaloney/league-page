@@ -7,6 +7,7 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
+    let eight, eightOne;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -132,8 +133,6 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
     
@@ -141,6 +140,9 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
     
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Co-Commissioners</h3>
+
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 Rules Committee</h4>
     
     <hr />
     
@@ -163,6 +165,8 @@
     </ul>
     
     <p>10 Bench (Expanded by 5 between the start of the next season and the NFL roster reduction date)</p>
+
+    <p>Teams must be under max roster limit by the last day in August at 7pm ET. Any team not in compliance will be penalized 1 draft pick for the upcoming draft for every day their roster is not compliant, starting with a 3rd round pick.</p>
 
     <p>2 IR Spots (Player must be labeled as IR, Out, or SUS in the Sleeper App)</p>
 
@@ -256,11 +260,11 @@
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
     <ol>
-        <li>1. Points For</li>
-        <li>2. Head 2 Head Record</li>
-        <li>3. Total Points Against</li>
-        <li>4. Coin Flip</li>
-        <li>5. Grindfest - Duel to the death</li>
+        <li> Points For</li>
+        <li> Head 2 Head Record</li>
+        <li> Total Points Against</li>
+        <li> Coin Flip</li>
+        <li> Grindfest - Duel to the death</li>
     </ol>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
@@ -289,4 +293,17 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is recommended.</p>
 
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 Co-Commissioners</h2>
+
+    <h3 bind:this={eightOne}>8.1 Rules Commmittee</h3>
+
+    <p>There must always be three (3) commissioners.</p>
+    <p>Rules Commitee: Every year two (2) new players are added to the Rules committee which also includes the co-commissioners, bringing the totaly to five (5) members. </p>
+    <ul>
+        <li>Those who finish 1st (League Champ) and Last (excluding commissioners) are added to the committee each season. </li>
+        <li>The committee can propose any rule changes for the following season.</li>
+        <li>Every rule change must be passed by majority vote.</li>
+        <li>NO RULES CAN BE CHANGED AFTER WEEK 1.</li>
+    </ul>
+    
 </div>
