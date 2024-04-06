@@ -27,7 +27,7 @@ export const managers = [
        "name": "Matty Boy/Beerx",
     // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Cincy", // (optional)
-       "bio": "Talk about a grinder. No one grinds harder than Matty Boy on and off the field.",
+       "bio": "The 2021 Toilet Bowl seems feels like a distant memory to the behemoth Beerx team has become. The regular season champ looks to finish the job this year. No one grinds harder than Matty Boy on and off the field.",
        "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -93,7 +93,7 @@ export const managers = [
       "name": "Sean/Chuck",
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "South Buffalo", // (optional)
-      "bio": "A veteran of the game who has never turned down a challenge or a beer.",
+      "bio": "A veteran of the game who has never turned down a challenge or a beer. With a stable of up and coming stars, Chuck looks to become a regular contender.",
       "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -115,7 +115,7 @@ export const managers = [
       "name": "Calvin/Tunes",
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "O-H-I-O", // (optional)
-      "bio": "More of a finesse guy but can muck it up with the best of them when the situation calls for it.",
+      "bio": "Dr Disrepect who? Tunes is the real Two Time. More of a finesse guy but can muck it up with the best of them when the situation calls for it.",
       "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -195,7 +195,7 @@ export const managers = [
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
+      "tradingScale": 1, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
