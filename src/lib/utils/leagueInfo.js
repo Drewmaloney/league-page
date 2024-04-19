@@ -28,7 +28,7 @@ export const managers = [
     // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Cincy", // (optional)
        "bio": "The 2021 Toilet Bowl seems feels like a distant memory to the behemoth Beerx team has become. The regular season champ looks to finish the job this year. No one grinds harder than Matty Boy on and off the field.",
-       "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "Beercules.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -50,7 +50,7 @@ export const managers = [
    //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Sunny Dunedin, FL", // (optional)
        "bio": "Easily the best player in the league who is constantly being conspired against.",
-       "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "WeAreGreenmen.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -72,7 +72,7 @@ export const managers = [
    //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Royal Oak", // (optional)
        "bio": "The inventor of grind juice, Lokes is a consummate grinder. If you look up grinder in the dictionary, surely there will be a picture of him mixing up a batch of that sweet, sweet nectar.",
-       "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "Torqued for Tua.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -94,7 +94,7 @@ export const managers = [
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "South Buffalo", // (optional)
       "bio": "A veteran of the game who has never turned down a challenge or a beer. With a stable of up and coming stars, Chuck looks to become a regular contender.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Oh No We suck Again.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -116,7 +116,7 @@ export const managers = [
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "O-H-I-O", // (optional)
       "bio": "Dr Disrepect who? Tunes is the real Two Time. More of a finesse guy but can muck it up with the best of them when the situation calls for it.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "It's Accrual World.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -138,7 +138,7 @@ export const managers = [
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Royal Oak", // (optional)
       "bio": "A patient grinder. Pulled off one of the most masterful tanks of all time. A testament to his willingness to do whatever it takes to win. Watch out for this squad of young bucks looking to change the dynamics of the league.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "District 5.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -160,7 +160,7 @@ export const managers = [
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Buffalo", // (optional)
       "bio": "Arguably the toughest irl grinder in the league, some question his methods, but everyone agrees that the Skyy is the limit for Big D. A couple tough breaks this year has Big D looking to reload in the draft by way of 2nd round picks.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Any Growler Sunday.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -182,7 +182,7 @@ export const managers = [
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Cuse", // (optional)
       "bio": "A real dance with the girl you brought guy, Mike is the only manager in the league who has yet to complete a trade. Confident in his own abilities to draft and careful on the waiver wire, is this the year he gets over the hump?",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "10 Ply.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -204,7 +204,7 @@ export const managers = [
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Cincy", // (optional)
       "bio": "The ugliest manager by far, but also the most consistent and knows how to deliver in big games. The all time playoff points leader, not someone you want to run into in a dark alley or in January.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Holdmanootz.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -226,7 +226,7 @@ export const managers = [
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Sweden/West Seneca, NY", // (optional)
       "bio": "His reputation preceeds him. No one has made more trades in the league than Chubb. Sometimes his tactics are questioned but he always pulls off a deal and always seems to come out on the right end of it. The short rebuild of '22 seems to have paid dividens",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Fishless Chubb.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -248,7 +248,7 @@ export const managers = [
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Buffalo", // (optional)
       "bio": "The consummate meat maker. Nobody throws it like Mizta. Always looks dangerous at the right times and leads the league in lineup IQ. Mizta can win any game, any week.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Team Mista.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -270,7 +270,7 @@ export const managers = [
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Everywhere", // (optional)
       "bio": "Usually on the business end of a trade with Chubb, Cook has built his team through trading and looks dangerous heading into a new season. A waiver wire move away from a playoff victory, there's a lot to like about Cook moving forward.",
-      "photo": "Meat.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "Team Cookpoooo.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
