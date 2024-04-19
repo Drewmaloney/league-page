@@ -270,7 +270,7 @@ export const managers = [
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Everywhere", // (optional)
       "bio": "Usually on the business end of a trade with Chubb, Cook has built his team through trading and looks dangerous heading into a new season. A waiver wire move away from a playoff victory, there's a lot to like about Cook moving forward.",
-      "photo": "Team Cookpoooo..png", // square ratio recommended (no larger than 500x500)
+      "photo": "Team Cookpoooo.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
