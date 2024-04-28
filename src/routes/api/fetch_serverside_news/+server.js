@@ -11,7 +11,7 @@ const DYNASTY_NERDS= 'https://www.dynastynerds.com/feed/';
 export async function GET() {
 	const articles = [
         getXMLArticles(FF_BALLERS, processFF),
-/*         getJSONArticles(FTN_NEWS, processFTN), */
+//        getJSONArticles(FTN_NEWS, processFTN), 
 	];
 	if(dynasty) {
 		articles.push(getXMLArticles(DYNASTY_LEAGUE, processDynastyLeague));
