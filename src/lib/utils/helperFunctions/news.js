@@ -24,7 +24,7 @@ export const getNews = async (servFetch, bypass = false) => {
 	const [serverRes, reddit] = await waitForAll(...newsSources).catch((err) => { console.error(err); });
 	const serverData = await serverRes.json().catch((err) => { console.error(err); });
 
-	const articles = [reddit, serverData].sort((a, b) => (a.ts < b.ts) ? 1 : -1);
+	const articles = [reddit, serverData].flat().sort((a, b) => (a.ts < b.ts) ? 1 : -1);
 	news.update(() => articles);
 
 	return {articles, fresh: true};
