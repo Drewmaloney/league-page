@@ -97,6 +97,14 @@ import { dynasty } from './utils/helper';
             separator: false,
             dynastyOnly: false,
         },
+        {
+            name: "FantasyCalc League Projections",
+            url: "https://fantasycalc.com/dashboard?leagueId=1073731104605163520&site=Sleeper",
+            icon: "thumbs_up_down",
+            premium: false,
+            separator: false,
+            dynastyOnly: false,
+        },
     ];
 </script>
 
