@@ -134,7 +134,7 @@ export const managers = [
     },
     {
       "managerID": "736657724703682560",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Lokes",
+      "name": "JRad",
   //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Royal Oak", // (optional)
       "bio": "A patient grinder. Pulled off one of the most masterful tanks of all time. A testament to his willingness to do whatever it takes to win. Watch out for this squad of young bucks looking to change the dynamics of the league.",
