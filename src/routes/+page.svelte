@@ -147,7 +147,6 @@
                 <HomePost />
             {/if}
         </div>
-	<p align="center"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLBMw7TqvBOBuRyfI9f88NKBjdKDWZKqo9yOHUBa0iemZFpOKncGRZn5EweKPrpoAU66unug0usZEg/pubhtml?gid=1098688830&amp;single=true&amp;widget=true&amp;headers=false" width= "50%" height=350 ></iframe></p>
         <PowerRankings />
     </div>
     
