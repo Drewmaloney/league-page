@@ -67,6 +67,11 @@ export const tabs = [
                 dest: '/constitution',
             },
             {
+                icon: 'co_present',
+                label: 'Powerpoints',
+                dest: '/powerpoint',
+            },
+            {
                 icon: 'sports_football',
                 label: 'Go to Sleeper',
                 dest: `https://sleeper.app/leagues/${leagueID}`,
