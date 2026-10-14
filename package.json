@@ -78,7 +78,7 @@
     "@smui/tab": "6.0.0-beta.13",
     "@smui/tab-bar": "6.0.0-beta.13",
     "@smui/textfield": "6.0.0-beta.13",
-    "@sveltejs/adapter-vercel": "^3.0.1",
+    "@sveltejs/adapter-netlify": "^2.0.8",
     "@sveltejs/kit": "^1.15.2",
     "contentful": "^9.1.34",
     "contentful-management": "^10.12.0",
