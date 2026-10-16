@@ -3,7 +3,7 @@
     let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
     let two, twoOne, twoTwo, twoThree;
     let three, threeOne;
-    let four, fourOne, fourTwo;
+    let four, fourOne, fourTwo, fourThree;
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
@@ -124,7 +124,8 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Seeding Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Consolation Bracket Prize</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     
@@ -150,7 +151,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>24 Total Players: 8 starters, 10 bench, 3 IR, and 3 taxi</p>
     
     <p class="underscore">Starters</p>
     <ul>
@@ -163,14 +164,14 @@
         <li>FLEX (RB/WR/TE)</li>
         <li>SUPER FLEX (QB/RB/WR/TE)</li>
     </ul>
-    
+    <p>There are no K, DEF, or IDP spots.</p>
     <p>10 Bench (Expanded by 5 between the start of the next season and the NFL roster reduction date)</p>
 
     <p>Teams must be under max roster limit by the last day in August at 7pm ET. Any team not in compliance will be penalized 1 draft pick for the upcoming draft for every day their roster is not compliant, starting with a 3rd round pick.</p>
 
-    <p>2 IR Spots (Player must be labeled as IR, Out, or SUS in the Sleeper App)</p>
+    <p>3 IR Spots (Player must be labeled as IR, Out, SUS, or COV in the Sleeper App. Doubtful players are not eligible.)</p>
 
-    <p> Taxi Spots (Restricted to rookies in the current league season. Allow unlimited amount of transfers from/to taxi squad throughout the season. Once a player is transferred to starting lineup/bench, they cannot be place back on Taxi Squad. You can claim rookies from waivers and place them on taxi squad.)</p>
+    <p>3 Taxi Spots (Restricted to rookies in the current league season. Allow unlimited amount of transfers from/to taxi squad throughout the season. Once a player is transferred to starting lineup/bench, they cannot be place back on Taxi Squad. You can claim rookies from waivers and place them on taxi squad.)</p>
     
      <!--   <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
@@ -229,7 +230,7 @@
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $200. $0 bids are allowed. Bids will process Wednesday at 3AM EST.</p>
+    <p>FAAB Waiver wire system. Each team will begin the season with $250. $0 bids are allowed. Bids will process Wednesday at 3AM EST. Dropped players clear waivers after 2 days.</p>
 
     <p>FAAB budgets will reset each season in January.</p>
     
@@ -252,7 +253,8 @@
 
     <h3 bind:this={threeOne}>3.1 Scoring System</h3>
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical PPR Scoring). The scoring system will never change without a majority league vote.</p>
-    
+    <p>The commissioner provided a nice chart diplaying point breakdowns but that is tedious to do in this coding language. It will be added in the future.</p>
+
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
@@ -269,6 +271,10 @@
         <li> Grindfest - Duel to the death</li>
     </ol>
 
+    <h3 bind:this={fourThree}>4.3 Consolation Bracket Prize</h3>
+    <p>The winner of the consolation playoffs receives pick 2.13 in the subsequent year’s rookie draft.</p>
+
+
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
@@ -276,7 +282,7 @@
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+    <h3 bind:this={sixOne}>6.1 Replacing Managers</h3>
     <p>In the VERY rare case that a manager is removed or leaves the league, the Rules Committee will convene to determine a course of action. </p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
