@@ -1,5 +1,6 @@
 import contentful from 'contentful-management'
 import { json, error } from '@sveltejs/kit';
+import { env } from '$env/dynamic/private';
 
 import { getLeagueTeamManagers } from "$lib/utils/helper";
 
@@ -8,9 +9,9 @@ const lang = "en-US";
 export async function POST({request, params}) {
     const client = contentful.createClient({
         // This is the access token for this space. Normally you get the token in the Contentful web app
-        accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
+        accessToken: env.VITE_CONTENTFUL_ACCESS_TOKEN,
     });
-    const space = await client.getSpace(import.meta.env.VITE_CONTENTFUL_SPACE)
+    const space = await client.getSpace(env.VITE_CONTENTFUL_SPACE)
         .catch(e => {
             console.error(e);
             throw error(500, "Problem getting contentful space");
