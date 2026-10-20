@@ -13,8 +13,7 @@
     let errorMessage = '';
 
 
-    const addComment = async(e) => {
-        const {comment, author} = e.detail;
+    const addComment = async({comment, author}) => {
         if(comment.trim() == "") {
             // handle error
             errorMessage = 'Comment cannot be empty';
@@ -37,11 +36,11 @@
             })
         })
 
-        const newComment = await res.json();
+        const newComment = await res.json().catch(() => null);
 
         if(!res.ok) {
             // handle error
-            errorMessage = newComment;
+            errorMessage = newComment?.message || 'Problem adding comment';
             open = true;
             return;
         }
